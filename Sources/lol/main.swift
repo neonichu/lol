@@ -4,7 +4,7 @@ import SimCtl
 Group {
   $0.command("list") {
     let simctl = try SimCtl()
-    let _ = simctl.devices.map { print($0) }
+    simctl.devices.forEach { print($0) }
   }
 
   $0.command("delete") {
