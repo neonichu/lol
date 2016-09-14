@@ -1,5 +1,7 @@
 # SimCtl
 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 ![This is fine.](fine.png)
 
 Swift library and CLI for interacting with Xcode's `simctl`.
